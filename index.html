@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Dashboard de Demonstração</h1>
+    <button id="themeToggle">🌙</button>
+  </header>
+
+  <section class="filters">
+    <label>Período:
+      <select id="periodFilter">
+        <option value="7">Últimos 7 dias</option>
+        <option value="30">Últimos 30 dias</option>
+        <option value="90">Últimos 90 dias</option>
+        <option value="180">Últimos 6 meses</option>
+        <option value="365">Último ano</option>
+      </select>
+    </label>
+
+    <label>Canal:
+      <select id="channelFilter">
+        <option value="todos">Todos</option>
+        <option value="site">Site</option>
+        <option value="app">App</option>
+      </select>
+    </label>
+  </section>
+
+  <main>
+    <div class="cards">
+      <div class="card"><h2 id="kpi1">0</h2><p>Usuários Ativos</p></div>
+      <div class="card"><h2 id="kpi2">0</h2><p>Receita (R$)</p></div>
+      <div class="card"><h2 id="kpi3">0</h2><p>Novos Clientes</p></div>
+    </div>
+
+    <div class="charts">
+      <canvas id="chart1"></canvas>
+      <canvas id="chart2"></canvas>
+    </div>
+
+    <section class="table-section">
+      <h2>Usuários Recentes</h2>
+      <input type="text" id="searchInput" placeholder="Buscar usuário...">
+      <table id="dataTable">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Registro</th>
+            <th>Data</th>
+            <th>Canal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Ana Souza</td><td>ana@email.com</td><td>#001</td><td>2025-08-14</td><td>site</td></tr>
+          <tr><td>João Lima</td><td>joao@email.com</td><td>#002</td><td>2025-07-20</td><td>app</td></tr>
+          <tr><td>Maria Silva</td><td>maria@email.com</td><td>#003</td><td>2025-06-10</td><td>site</td></tr>
+          <tr><td>Carlos Pereira</td><td>carlos@email.com</td><td>#004</td><td>2025-03-15</td><td>app</td></tr>
+          <tr><td>Fernanda Costa</td><td>fernanda@email.com</td><td>#005</td><td>2024-12-20</td><td>site</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
