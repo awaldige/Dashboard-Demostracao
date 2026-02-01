@@ -15,17 +15,15 @@ Acesse o projeto:
 ---
 
 ## 🖼️ Demonstração Visual
-![IMG_1265](https://github.com/user-attachments/assets/480d6bd3-af60-48e8-a73b-e8f2bf467982)
-![IMG_1266](https://github.com/user-attachments/assets/610d680e-6c49-4ba9-bdd5-2f584b44be1c)
-![IMG_1267](https://github.com/user-attachments/assets/19965334-a25d-46c0-b9f4-f9ade76da74f)
-![IMG_1268](https://github.com/user-attachments/assets/287354d2-1643-4f9e-b0e0-085dcae625b0)
-![IMG_1269](https://github.com/user-attachments/assets/2153eb97-4b1f-4a6c-9f0c-97662a2fdc44)
-![IMG_1270](https://github.com/user-attachments/assets/96055e4d-e365-4c59-adf0-7030b5cb678b)
-![IMG_1271](https://github.com/user-attachments/assets/a95fb7c7-cc15-4181-909e-dc93259189c8)
-
+![IMG_1271](https://github.com/user-attachments/assets/02f8ac46-8b5d-4728-bceb-03b2f839ecb9)
+![IMG_1270](https://github.com/user-attachments/assets/754d31ee-40b7-4aba-9df5-be219152221c)
+![IMG_1269](https://github.com/user-attachments/assets/1ecf26e8-e23a-4402-96da-fae4ae231d48)
+![IMG_1268](https://github.com/user-attachments/assets/a14a4fb6-e996-4893-881d-2d6b4bb526c0)
+![IMG_1267](https://github.com/user-attachments/assets/46414ff3-05b5-462d-9ae1-ce732967ffe2)
+![IMG_1266](https://github.com/user-attachments/assets/07020463-e5a8-4d96-b3cc-3ae14262341b)
+![IMG_1265](https://github.com/user-attachments/assets/2d3aca9d-3276-439b-adf0-ce9f7ec550e7)
 
 ---
-
 
 ## ⚙️ Tecnologias Utilizadas
 
