@@ -13,7 +13,7 @@
 <body>
   <header>
     <h1>Dashboard de Demonstração</h1>
-    <button id="themeToggle">🌙</button>
+    <button id="themeToggle" title="Alternar Tema">🌙</button>
   </header>
 
   <section class="filters">
@@ -44,31 +44,68 @@
     </div>
 
     <div class="charts">
-      <canvas id="chart1"></canvas>
-      <canvas id="chart2"></canvas>
+      <div class="chart-container">
+        <canvas id="chart1"></canvas>
+      </div>
+      <div class="chart-container">
+        <canvas id="chart2"></canvas>
+      </div>
     </div>
 
     <section class="table-section">
-      <h2>Usuários Recentes</h2>
-      <input type="text" id="searchInput" placeholder="Buscar usuário...">
-      <table id="dataTable">
-        <thead>
-          <tr>
-            <th>Nome</th>
-            <th>Email</th>
-            <th>Registro</th>
-            <th>Data</th>
-            <th>Canal</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>Ana Souza</td><td>ana@email.com</td><td>#001</td><td>2025-08-14</td><td>site</td></tr>
-          <tr><td>João Lima</td><td>joao@email.com</td><td>#002</td><td>2025-07-20</td><td>app</td></tr>
-          <tr><td>Maria Silva</td><td>maria@email.com</td><td>#003</td><td>2025-06-10</td><td>site</td></tr>
-          <tr><td>Carlos Pereira</td><td>carlos@email.com</td><td>#004</td><td>2025-03-15</td><td>app</td></tr>
-          <tr><td>Fernanda Costa</td><td>fernanda@email.com</td><td>#005</td><td>2024-12-20</td><td>site</td></tr>
-        </tbody>
-      </table>
+      <h2><i class="fas fa-users"></i> Usuários Recentes</h2>
+      <input type="text" id="searchInput" placeholder="Buscar usuário por nome ou email...">
+      
+      <div class="table-wrapper">
+        <table id="dataTable">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Email</th>
+              <th>Registro</th>
+              <th>Data</th>
+              <th>Canal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Nome">Ana Souza</td>
+              <td data-label="Email">ana@email.com</td>
+              <td data-label="Registro">#001</td>
+              <td data-label="Data">2025-08-14</td>
+              <td data-label="Canal">site</td>
+            </tr>
+            <tr>
+              <td data-label="Nome">João Lima</td>
+              <td data-label="Email">joao@email.com</td>
+              <td data-label="Registro">#002</td>
+              <td data-label="Data">2025-07-20</td>
+              <td data-label="Canal">app</td>
+            </tr>
+            <tr>
+              <td data-label="Nome">Maria Silva</td>
+              <td data-label="Email">maria@email.com</td>
+              <td data-label="Registro">#003</td>
+              <td data-label="Data">2025-06-10</td>
+              <td data-label="Canal">site</td>
+            </tr>
+            <tr>
+              <td data-label="Nome">Carlos Pereira</td>
+              <td data-label="Email">carlos@email.com</td>
+              <td data-label="Registro">#004</td>
+              <td data-label="Data">2025-03-15</td>
+              <td data-label="Canal">app</td>
+            </tr>
+            <tr>
+              <td data-label="Nome">Fernanda Costa</td>
+              <td data-label="Email">fernanda@email.com</td>
+              <td data-label="Registro">#005</td>
+              <td data-label="Data">2024-12-20</td>
+              <td data-label="Canal">site</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
   </main>
 
